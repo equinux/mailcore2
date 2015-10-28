@@ -4055,7 +4055,6 @@
 			baseConfigurationReference = 119D98D91BC2C8300005D449 /* Debug-AppStore.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
@@ -4306,7 +4305,6 @@
 			baseConfigurationReference = 119D98DB1BC2C8300005D449 /* Release-AppStore.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
@@ -4746,7 +4744,6 @@
 			baseConfigurationReference = 119D98DA1BC2C8300005D449 /* Debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
@@ -4759,7 +4756,6 @@
 			baseConfigurationReference = 119D98DC1BC2C8300005D449 /* Release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
