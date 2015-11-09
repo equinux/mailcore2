@@ -4044,6 +4044,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
@@ -4056,9 +4057,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
-				SDKROOT = macosx;
 			};
 			name = "Debug App Store";
 		};
@@ -4129,7 +4128,6 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
@@ -4295,6 +4293,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
 			};
@@ -4306,9 +4305,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
-				SDKROOT = macosx;
 			};
 			name = "Release App Store";
 		};
@@ -4380,7 +4377,6 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
@@ -4691,6 +4687,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
@@ -4734,6 +4731,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(IOS_LIBRARY_SEARCH_PATHS)";
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
 			};
@@ -4745,9 +4743,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -4757,9 +4753,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = MailCore;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -4956,7 +4950,6 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
@@ -4987,7 +4980,6 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
