@@ -3294,6 +3294,10 @@
 					C6B5AE0119F630B3001352A6 = {
 						CreatedOnToolsVersion = 6.0;
 					};
+					C6BD288C170BD71100A91AC1 = {
+						DevelopmentTeam = CPXNXN488S;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C64EA531169E772200778456 /* Build configuration list for PBXProject "mailcore2" */;
@@ -4122,7 +4126,9 @@
 		119D98E31BC2C83D0005D449 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPXNXN488S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4371,7 +4377,9 @@
 		119D98F51BC2C84A0005D449 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPXNXN488S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4945,7 +4953,9 @@
 		C6BD289E170BD71100A91AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPXNXN488S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4974,7 +4984,9 @@
 		C6BD289F170BD71100A91AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPXNXN488S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
